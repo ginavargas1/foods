@@ -26,6 +26,53 @@ html {
 }
 /* End of Comment Styles */
 
+
+/* Nabar */
+.navbar {
+    width: 100%;
+    height: 14rem;
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0.2rem 0.2rem 0.2rem #000;
+}
+
+.navbar-link {
+    color: #aaa;
+    margin: 0.4rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: color 0.3s;
+}
+
+.navbar-link:hover {
+    color: #fff;
+}
+
+.navbar-link i {
+    font-size: 7rem;
+}
+
+.navbar-link span {
+    font-size: 2.5rem;
+    font-weight: 900;
+    letter-spacing: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.menu {
+    width: 4rem;
+    height: 6rem;
+    background-color: #000;
+}
+/* End of Navbar */
+
 /* Section 1 */
 .section-1 {
     width: 100%;
