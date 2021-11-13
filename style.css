@@ -39,12 +39,12 @@ html {
     justify-content: center;
     align-items: center;
     box-shadow: 0.2rem 0.2rem 0.2rem #000;
-    transition: top 0.4s 0.2s;
+    transition: top 0.4s;
 }
 
 .navbar.change {
     top: 0;
-    transition: top 0.4s;
+    transition: top 0.4s 0.2s;
 }
 
 .navbar-link {
@@ -82,7 +82,7 @@ html {
     border-radius: 30rem 30rem 15rem 15rem;
     box-shadow: 0.1rem 0.1rem 0.1rem #000, -.1rem 0.1rem #000;
     cursor: pointer;
-    transition: top 0.4s;
+    transition: top 0.4s 0.2s;
 }
 
 .menu.change {
